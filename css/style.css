@@ -95,3 +95,20 @@ h3 {
     background-color: #fff;
     color: #41464b;
 }
+
+/*
+===========================================
+                ANIMATE
+===========================================*/
+#home-cover {
+  animation-delay: .1s;
+  animation-duration: .5s;
+}
+#home-heading {
+  animation-delay: .5s;
+  animation-duration: .5s;
+}
+#home-btn {
+  animation-delay: 1s;
+  animation-duration: .5s;
+}
