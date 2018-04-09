@@ -24,8 +24,15 @@ body {
   color: #41464b;
 }
 
+p {
+  color: #64707b;
+  font-size: 16px;
+  font-weight: 300;
+}
+
 h3 {
   text-transform: uppercase;
+  color: #41464b;
 }
 
 
@@ -152,4 +159,13 @@ h3 {
 .service-item:hover .service-item-icon i {
   color: #fff;
   background-color: #34c6d3;
+}
+.service-item-title h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+.service-item-desc p {
+  margin: 0;
+  padding-left: 85px;
 }
