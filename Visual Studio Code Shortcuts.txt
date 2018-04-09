@@ -1,0 +1,3 @@
+ALT+SHIFT+P - Beautify
+ALT+(góra/dó³) - przesuniêcie/przeniesienie lini kodu
+ALT+SHIFT+(góra/dó³) - skopiowanie kodu
