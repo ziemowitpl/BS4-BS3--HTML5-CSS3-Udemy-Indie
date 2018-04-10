@@ -92,7 +92,7 @@ h3 {
     font-weight: 400;
     text-transform: uppercase;
 }
-
+/* White button */
 .btn-white {
     border-color: #fff;
     color: #fff;
@@ -101,6 +101,16 @@ h3 {
 .btn-white:hover, .btn-white:focus {
     background-color: #fff;
     color: #41464b;
+}
+/* Blue button */
+.btn-blue {
+    border-color: #34c6d3;
+    color: #34c6d3;
+}
+
+.btn-blue:hover, .btn-blue:focus {
+    background-color: #34c6d3;
+    color: #fff;
 }
 
 /*
