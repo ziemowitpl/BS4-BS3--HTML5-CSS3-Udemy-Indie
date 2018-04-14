@@ -18,3 +18,17 @@ $(document).ready(function() {
           }
     });
   });
+
+
+// ==========================================
+//                 TEAM
+// ==========================================
+
+  $(document).ready(function() {
+    $("#team-members").owlCarousel({
+        items: 3,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true
+    });
+  });
