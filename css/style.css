@@ -222,10 +222,6 @@ h3 {
 ===========================================
                   Work
 ===========================================*/
-#work .content-title {
-  margin-top: 100px;
-  margin-bottom: 70px;
-}
 .row.no-gutters [class*=col-] {
   padding-left: 0;
   padding-right: 0;
