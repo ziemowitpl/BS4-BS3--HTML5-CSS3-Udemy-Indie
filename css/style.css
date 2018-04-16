@@ -260,3 +260,27 @@ h4.team-member-designation {
   letter-spacing: 1px;
   margin-top: 5px;
 }
+/*
+===========================================
+                  Social
+==========================================*/
+.social-list {
+  padding-left: 0;
+}
+.social-list li {
+  list-style-type: none;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+.social-icon i {
+  font-size: 17px;
+}
+.icon-gray i {
+  color: #64707b;
+}
+.icon-gray i:hover {
+  color: #34c6d3;
+}
