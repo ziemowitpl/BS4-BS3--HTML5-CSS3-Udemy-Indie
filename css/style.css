@@ -284,6 +284,9 @@ h4.team-member-designation {
 .icon-gray i {
   color: #64707b;
 }
+.icon-white {
+  color: #fff;
+}
 .icon-gray i:hover {
   color: #34c6d3;
 }
@@ -434,5 +437,25 @@ footer {
   background-color: #41464b;
   padding-top: 30px;
   border-top: 5px solid rgba(0, 0, 0, 0.1);
-  
 }
+#contact-left h3 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+#contact-left p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+#contact-info {
+  background: url("../img/world-map.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+address {
+  color: #fff;
+}
+address strong, #phone-fax-email strong {
+  letter-spacing: 1px;
+}
+
