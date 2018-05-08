@@ -72,3 +72,17 @@ $(document).ready(function() {
   });
 });
 
+// ==========================================
+//                 NAVIGATION BACKGROUND
+// ==========================================
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if($(this).scrollTop() < 50) {
+      $("nav").removeClass("my-top-nav");
+    }
+    else
+    {
+      $("nav").addClass("my-top-nav");
+    }
+  });
+});

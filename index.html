@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".my-top-nav" data-offset="350">
 
     <header>
         <nav class="navbar navbar-expand-lg my-top-nav fixed-top" role="navigation">
@@ -40,7 +40,7 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav my-menu">
-                        <a class="nav-item nav-link" href="#">Home</a>
+                        <a class="nav-item nav-link" href="#home">Home</a>
                         <a class="nav-item nav-link" href="#services">Services</a>
                         <a class="nav-item nav-link" href="#about">About</a>
                         <a class="nav-item nav-link" href="#work">Work</a>
@@ -54,6 +54,7 @@
                 </div>
        
         </nav>
+        
     </header>
 
     <!-- Home -->
@@ -611,7 +612,7 @@
     <footer>
 
         <!-- Contact section -->
-        <div class="contact">
+        <div id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
