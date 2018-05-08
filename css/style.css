@@ -507,4 +507,33 @@ form .form-control {
 #footer-menu a:hover {
   color: #34c6d3;
 }
+/*
+===========================================
+                  Navigation
+==========================================*/
+.navbar {
+  padding: 20px 85px;
+}
+.my-top-nav {
+  background: rgba(0, 0, 0, 0.7);
+}
+.my-menu > a {
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.my-menu > a:hover {
+  color: #34c6d3;
+}
+.color-bars {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.3em;
+}
+
 
