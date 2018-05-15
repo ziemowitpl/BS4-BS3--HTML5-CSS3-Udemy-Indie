@@ -86,3 +86,16 @@ $(document).ready(function() {
     }
   });
 });
+// Smooth scrolling
+$(document).ready(function() {
+  $("a.smooth-scroll").click(function(event){
+    event.preventDefault();
+
+    // get/return id like #about,#work, #team etc
+    var section = $(this).attr("href");
+    $("html, body").animate({
+      scrollTop: $(section).offset().top - 64
+      // easeInOutExpo - easing effect
+    }, 1250, "easeInOutExpo");
+  });
+});
