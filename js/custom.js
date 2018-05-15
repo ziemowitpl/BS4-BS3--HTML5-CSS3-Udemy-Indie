@@ -78,11 +78,15 @@ $(document).ready(function() {
 $(document).ready(function() {
   $(window).scroll(function() {
     if($(this).scrollTop() < 50) {
+      // hide nav
       $("nav").removeClass("my-top-nav");
+      // back-to-top fixed button
+      $("#back-to-top").fadeOut();
     }
     else
     {
       $("nav").addClass("my-top-nav");
+      $("#back-to-top").fadeIn();
     }
   });
 });

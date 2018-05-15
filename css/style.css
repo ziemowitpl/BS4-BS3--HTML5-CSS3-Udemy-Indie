@@ -117,6 +117,15 @@ h3 {
     background-color: #34c6d3;
     color: #fff;
 }
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2em;
+  padding: 3px 15px;
+  border-radius: 0;
+  display: none;
+}
 
 /*
 ===========================================
