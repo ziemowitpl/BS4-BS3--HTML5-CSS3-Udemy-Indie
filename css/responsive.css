@@ -1,0 +1,29 @@
+/* Bootstrap 4 media queries */
+
+/* Large Devices Desktops and Laptops */
+@media (min-width: 1200px) {
+    
+}
+/* Medium devices landscape tablets & medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+}
+/* Small devices (portrait tablets & Small Desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding-left: 70px;
+    }
+}
+/* Extra small devices (Landscape Phones & Portrain tablets) */
+@media (max-width: 767px) {
+
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 320px) {
+
+}

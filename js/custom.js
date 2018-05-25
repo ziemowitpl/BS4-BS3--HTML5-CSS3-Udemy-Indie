@@ -103,3 +103,9 @@ $(document).ready(function() {
     }, 1250, "easeInOutExpo");
   });
 });
+// Close mobile nav when on section click
+$(document).ready(function() {
+  $(".navbar-collapse .navbar-nav a").on("click touch", function(){
+    $(".navbar-toggler").click();
+  });
+});
